@@ -1,0 +1,142 @@
+body {
+    color: rgba(255,255,255,.74);
+}
+
+header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo {
+    width: 180px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 70px;
+    margin: 0;
+    align-items: center
+}
+header ul li {
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+header ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,.74);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+
+.intro {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/pic-3.jpg);
+}
+.legacy {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/pic-5.jpeg);
+}
+.quality {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/pic-2.jpeg);
+}
+.passion {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),  url(img/pic4.jpg);
+}
+.vintage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/pic-6.jpeg);
+}
+.handmade {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/pic-1.jpeg);
+}
+.centered {
+    align-items: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: wrap;
+}
+
+.text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    display: inline-block;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 13px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.title-border{
+    border-bottom: 1px solid rgba(255,255,255,.74);
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    height: 420px;
+}
+
+table {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 140px;
+}
+
+
+table th, td {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+table a {
+    color: rgba(255,255,255,.74);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,.74);
+}
+
+.footnote {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footnote p {
+    margin: 0;
+    display: inline-block;
+}
